@@ -1,0 +1,208 @@
+
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-02-06 10:26 EST
+Nmap scan report for net1gateway.ifslab.net (192.168.1.1)
+Host is up (0.0051s latency).
+All 1000 scanned ports on net1gateway.ifslab.net (192.168.1.1) are closed
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.1.187
+Host is up (0.00033s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9, Linux 3.0 - 3.9
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0011s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.1.198
+Host is up (0.00032s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+1024/tcp open  kdm
+Device type: general purpose
+Running: Linux 2.4.X
+OS CPE: cpe:/o:linux:linux_kernel:2.4
+OS details: Linux 2.4.9 - 2.4.18 (likely embedded)
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.1.200
+Host is up (0.00045s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.30
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.1.211
+Host is up (0.00030s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+631/tcp  open  ipp
+3306/tcp open  mysql
+6000/tcp open  X11
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.13 - 2.6.32
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.1.213
+Host is up (0.00042s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 2 hops
+
+Nmap scan report for secure1.ifslab.net (192.168.1.231)
+Host is up (0.0025s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9, Linux 3.0 - 3.9
+
+Nmap scan report for secure2.ifslab.net (192.168.1.232)
+Host is up (0.00055s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9, Linux 3.0 - 3.9
+
+Nmap scan report for secure9.ifslab.net (192.168.1.239)
+Host is up (0.00044s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.9, Linux 3.0 - 3.9
+
+Nmap scan report for spr300a.ifslab.net (192.168.1.246)
+Host is up (0.00085s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.27
+
+Nmap scan report for spr300g.ifslab.net (192.168.1.252)
+Host is up (0.00036s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.27
+
+Nmap scan report for spr300h.ifslab.net (192.168.1.253)
+Host is up (0.00051s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.27
+OS details: Linux 2.6.27 (Ubuntu 8.10), Linux 2.6.9 - 2.6.27
+
+Nmap scan report for spr300i.ifslab.net (192.168.1.254)
+Host is up (0.00036s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  closed ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.27
+
+OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 256 IP addresses (14 hosts up) scanned in 73.10 seconds

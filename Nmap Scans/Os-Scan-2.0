@@ -1,0 +1,211 @@
+
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-02-06 10:52 EST
+Nmap scan report for net2gateway.ifslab.net (192.168.2.1)
+Host is up (0.0023s latency).
+All 1000 scanned ports on net2gateway.ifslab.net (192.168.2.1) are closed
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.2.4
+Host is up (0.00038s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+Device type: general purpose
+Running: Microsoft Windows 2000|XP|Me
+OS CPE: cpe:/o:microsoft:windows_2000::- cpe:/o:microsoft:windows_2000::sp2 cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::- cpe:/o:microsoft:windows_xp::sp1 cpe:/o:microsoft:windows_me
+OS details: Microsoft Windows 2000 SP0/SP2/SP4 or Windows XP SP0/SP1, Microsoft Windows 2000 SP1, Microsoft Windows Millennium Edition (Me)
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.2.18
+Host is up (0.00030s latency).
+Not shown: 986 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+9/tcp    open  discard
+13/tcp   open  daytime
+17/tcp   open  qotd
+19/tcp   open  chargen
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+515/tcp  open  printer
+1026/tcp open  LSA-or-nterm
+Device type: general purpose
+Running: Microsoft Windows XP
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_xp::sp3
+OS details: Microsoft Windows XP SP2 or SP3
+Network Distance: 2 hops
+
+Nmap scan report for server03-1A.ifslab.net (192.168.2.31)
+Host is up (0.00036s latency).
+Not shown: 981 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+42/tcp   open  nameserver
+80/tcp   open  http
+110/tcp  open  pop3
+119/tcp  open  nntp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+563/tcp  open  snews
+1025/tcp open  NFS-or-IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+1030/tcp open  iad1
+1031/tcp open  iad2
+1033/tcp open  netinfo
+3389/tcp open  ms-wbt-server
+8099/tcp open  unknown
+Device type: general purpose
+Running: Microsoft Windows 2003
+OS CPE: cpe:/o:microsoft:windows_server_2003::sp1 cpe:/o:microsoft:windows_server_2003::sp2
+OS details: Microsoft Windows Server 2003 SP1 or SP2
+Network Distance: 2 hops
+
+Nmap scan report for server08-8A.ifslab.net (192.168.2.62)
+Host is up (0.00049s latency).
+Not shown: 973 closed ports
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+53/tcp    open  domain
+80/tcp    open  http
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+593/tcp   open  http-rpc-epmap
+1039/tcp  open  sbl
+1047/tcp  open  neod1
+1048/tcp  open  neod2
+1801/tcp  open  msmq
+2049/tcp  open  nfs
+2103/tcp  open  zephyr-clt
+2105/tcp  open  eklogin
+2107/tcp  open  msmq-mgmt
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49175/tcp open  unknown
+49176/tcp open  unknown
+Device type: general purpose
+Running: Microsoft Windows 7|2008
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_8
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8
+Network Distance: 2 hops
+
+Nmap scan report for 8-8A.ifslab.net (192.168.2.63)
+Host is up (0.00049s latency).
+Not shown: 980 closed ports
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+17/tcp    open  qotd
+19/tcp    open  chargen
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2869/tcp  open  icslap
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+Device type: general purpose
+Running: Microsoft Windows 7|2008
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_8
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, or Windows 8
+Network Distance: 2 hops
+
+Nmap scan report for server12-1A.ifslab.net (192.168.2.64)
+Host is up (0.00053s latency).
+Not shown: 990 filtered ports
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+80/tcp    open  http
+135/tcp   open  msrpc
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+515/tcp   open  printer
+3389/tcp  open  ms-wbt-server
+49154/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone
+Running (JUST GUESSING): Microsoft Windows 7|Phone|2008|Vista (93%)
+OS CPE: cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+Aggressive OS guesses: Microsoft Windows 7 Professional (93%), Microsoft Windows Phone 7.5 (92%), Microsoft Windows Server 2008 Beta 3 (92%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (92%), Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008 (92%), Microsoft Windows Server 2008 SP1 (89%), Microsoft Windows Vista Home Premium SP1 (89%), Microsoft Windows 7 SP1 (86%), Microsoft Windows Vista SP0 - SP1 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.2.84
+Host is up (0.00030s latency).
+Not shown: 985 closed ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+3372/tcp  open  msdtc
+3389/tcp  open  ms-wbt-server
+8009/tcp  open  ajp13
+8222/tcp  open  unknown
+8333/tcp  open  bitcoin
+49152/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=6.46%E=4%D=2/6%OT=53%CT=1%CU=31682%PV=Y%DS=2%DC=I%G=Y%TM=54D4E366
+OS:%P=x86_64-unknown-linux-gnu)SEQ(SP=88%GCD=1%ISR=9C%TI=I%CI=I%II=I%SS=S%T
+OS:S=0)OPS(O1=M5B4NW0NNT00NNS%O2=M5B4NW0NNT00NNS%O3=M5B4NW0NNT00%O4=M5B4NW0
+OS:NNT00NNS%O5=M5B4NW0NNT00NNS%O6=M5B4NNT00NNS)WIN(W1=FAF0%W2=FB90%W3=FC80%
+OS:W4=FB40%W5=FB40%W6=FB8B)ECN(R=Y%DF=N%T=80%W=FAF0%O=M5B4NW0NNS%CC=N%Q=U)T
+OS:1(R=Y%DF=N%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=N%T=80%W=0%S=Z%A=S%F=AR%
+OS:O=%RD=0%Q=U)T3(R=Y%DF=N%T=80%W=FB8B%S=O%A=S+%F=AS%O=M5B4NW0NNT00NNS%RD=0
+OS:%Q=U)T4(R=Y%DF=N%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=80%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=N%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=38%UN=0%RI
+OS:PL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=80%CD=Z)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.2.215
+Host is up (0.00051s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.17 - 2.6.36
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 256 IP addresses (9 hosts up) scanned in 27.59 seconds

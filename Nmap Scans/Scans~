@@ -1,0 +1,721 @@
+nmap  192.168.1.0/24 | grep -oP '192.{0,10}' > Hostlist-192.168.1.0.txt
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nmap 192.168.1.0/24
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 05:27 EST
+Nmap scan report for net1gateway.ifslab.net (192.168.1.1)
+Host is up (0.0029s latency).
+All 1000 scanned ports on net1gateway.ifslab.net (192.168.1.1) are closed
+
+Nmap scan report for 192.168.1.187
+Host is up (0.00026s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0010s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+
+Nmap scan report for 192.168.1.198
+Host is up (0.00041s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+1024/tcp open  kdm
+
+Nmap scan report for 192.168.1.200
+Host is up (0.00042s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+
+Nmap scan report for 192.168.1.201
+Host is up (0.00030s latency).
+All 1000 scanned ports on 192.168.1.201 are closed
+
+Nmap scan report for 192.168.1.211
+Host is up (0.00037s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+631/tcp  open  ipp
+3306/tcp open  mysql
+6000/tcp open  X11
+
+Nmap scan report for 192.168.1.213
+Host is up (0.00040s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+
+Nmap scan report for 192.168.1.229
+Host is up (0.00041s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+143/tcp  open  imap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+6000/tcp open  X11
+6667/tcp open  irc
+
+Nmap scan report for secure1.ifslab.net (192.168.1.231)
+Host is up (0.00025s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for secure2.ifslab.net (192.168.1.232)
+Host is up (0.00054s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for secure9.ifslab.net (192.168.1.239)
+Host is up (0.00035s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for spr300a.ifslab.net (192.168.1.246)
+Host is up (0.00025s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+
+Nmap scan report for spr300g.ifslab.net (192.168.1.252)
+Host is up (0.00030s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+
+Nmap scan report for spr300h.ifslab.net (192.168.1.253)
+Host is up (0.00045s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+
+Nmap scan report for spr300i.ifslab.net (192.168.1.254)
+Host is up (0.00026s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE
+21/tcp  closed ftp
+22/tcp  open   ssh
+23/tcp  open   telnet
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+631/tcp closed ipp
+
+Nmap done: 256 IP addresses (16 hosts up) scanned in 43.79 seconds
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nmap 192.168.2.0/24 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 05:29 EST
+Nmap scan report for net2gateway.ifslab.net (192.168.2.1)
+Host is up (0.0024s latency).
+All 1000 scanned ports on net2gateway.ifslab.net (192.168.2.1) are closed
+
+Nmap scan report for 192.168.2.4
+Host is up (0.00039s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+
+Nmap scan report for 192.168.2.18
+Host is up (0.00057s latency).
+Not shown: 986 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+9/tcp    open  discard
+13/tcp   open  daytime
+17/tcp   open  qotd
+19/tcp   open  chargen
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+515/tcp  open  printer
+1026/tcp open  LSA-or-nterm
+
+Nmap scan report for server03-1A.ifslab.net (192.168.2.31)
+Host is up (0.00042s latency).
+Not shown: 981 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+42/tcp   open  nameserver
+80/tcp   open  http
+110/tcp  open  pop3
+119/tcp  open  nntp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+563/tcp  open  snews
+1025/tcp open  NFS-or-IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+1030/tcp open  iad1
+1031/tcp open  iad2
+1033/tcp open  netinfo
+3389/tcp open  ms-wbt-server
+8099/tcp open  unknown
+
+Nmap scan report for server08-8A.ifslab.net (192.168.2.62)
+Host is up (0.00026s latency).
+Not shown: 973 closed ports
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+53/tcp    open  domain
+80/tcp    open  http
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+593/tcp   open  http-rpc-epmap
+1039/tcp  open  sbl
+1047/tcp  open  neod1
+1048/tcp  open  neod2
+1801/tcp  open  msmq
+2049/tcp  open  nfs
+2103/tcp  open  zephyr-clt
+2105/tcp  open  eklogin
+2107/tcp  open  msmq-mgmt
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49175/tcp open  unknown
+49176/tcp open  unknown
+
+Nmap scan report for server12-1A.ifslab.net (192.168.2.64)
+Host is up (0.00025s latency).
+Not shown: 990 filtered ports
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+80/tcp    open  http
+135/tcp   open  msrpc
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+515/tcp   open  printer
+3389/tcp  open  ms-wbt-server
+49154/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+
+Nmap scan report for 192.168.2.215
+Host is up (0.00043s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 18.05 seconds
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+nmap 30.0.1.0/26
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 05:32 EST
+Nmap scan report for 30.0.1.1
+Host is up (0.039s latency).
+All 1000 scanned ports on 30.0.1.1 are closed
+
+Nmap scan report for carshop1.ifslab.net (30.0.1.2)
+Host is up (0.00044s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+3306/tcp open  mysql
+
+Nmap scan report for flower2a.ifslab.net (30.0.1.22)
+Host is up (0.00060s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+3306/tcp open  mysql
+
+Nmap scan report for flower6a.ifslab.net (30.0.1.36)
+Host is up (0.00077s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+3306/tcp open  mysql
+
+Nmap done: 64 IP addresses (4 hosts up) scanned in 11.09 seconds
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ nmap -sV -iL Hostlist-192.168.1.0.txt 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 05:56 EST
+Failed to resolve "192.168.1.1)".
+Failed to resolve "192.168.1.1)".
+Nmap scan report for 192.168.1.187
+Host is up (0.00030s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.3 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.15 ((CentOS))
+443/tcp open  ssl/http Apache httpd 2.2.15 ((CentOS))
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0010s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+
+Nmap scan report for 192.168.1.198
+Host is up (0.00044s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 2.9p2 (protocol 1.99)
+80/tcp   open  http        Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
+111/tcp  open  rpcbind     2 (RPC #100000)
+139/tcp  open  netbios-ssn Samba smbd (workgroup: MYGROUP)
+443/tcp  open  ssl/http    Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
+1024/tcp open  status      1 (RPC #100024)
+
+Nmap scan report for 192.168.1.200
+Host is up (0.00042s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 4.7 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.6 ((Fedora))
+111/tcp open  rpcbind  2-4 (RPC #100000)
+443/tcp open  ssl/http Apache httpd 2.2.6 ((Fedora))
+
+Nmap scan report for 192.168.1.201
+Host is up (0.00037s latency).
+All 1000 scanned ports on 192.168.1.201 are closed
+
+Nmap scan report for 192.168.1.211
+Host is up (0.00045s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 1.3.37 ((Unix) PHP/4.4.4)
+631/tcp  open  ipp     CUPS 1.1
+3306/tcp open  mysql   MySQL (Too many connections)
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 192.168.1.213
+Host is up (0.00038s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          vsftpd 2.3.4
+22/tcp   open  ssh          OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp   open  telnet?
+25/tcp   open  smtp?
+53/tcp   open  domain       ISC BIND 9.4.2
+80/tcp   open  http         Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+111/tcp  open  rpcbind      2 (RPC #100000)
+139/tcp  open  netbios-ssn  Samba smbd 3.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn  Samba smbd 3.X (workgroup: WORKGROUP)
+512/tcp  open  exec?
+513/tcp  open  login?
+514/tcp  open  shell?
+1099/tcp open  rmiregistry  GNU Classpath grmiregistry
+1524/tcp open  shell        Metasploitable root shell
+2049/tcp open  nfs          2-4 (RPC #100003)
+2121/tcp open  ccproxy-ftp?
+3306/tcp open  mysql        MySQL (Too many connections)
+5432/tcp open  postgresql   PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp open  vnc          VNC (protocol 3.3)
+6000/tcp open  X11          (access denied)
+6667/tcp open  irc          Unreal ircd
+8009/tcp open  ajp13        Apache Jserv (Protocol v1.3)
+8180/tcp open  unknown
+Service Info: Hosts: localhost, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.229
+Host is up (0.00049s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd (before 2.0.8) or WU-FTPD
+22/tcp   open  ssh         OpenSSH 3.9p1 (protocol 1.99)
+23/tcp   open  telnet?
+25/tcp   open  smtp?
+53/tcp   open  domain      ISC BIND 9.2.5
+80/tcp   open  http        Apache httpd 2.0.52 ((Fedora))
+139/tcp  open  netbios-ssn Samba smbd 3.X (workgroup: WORKGROUP)
+143/tcp  open  imap        Dovecot imapd
+443/tcp  open  ssl/http    Apache httpd 2.0.52 ((Fedora))
+445/tcp  open  netbios-ssn Samba smbd 3.X (workgroup: WORKGROUP)
+6000/tcp open  X11         (access denied)
+6667/tcp open  irc         Unreal ircd
+Service Info: Host: eagle-server.example.com; OS: Unix
+
+Nmap scan report for secure1.ifslab.net (192.168.1.231)
+Host is up (0.00030s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.3 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.15 ((CentOS))
+443/tcp open  ssl/http Apache httpd 2.2.15 ((CentOS))
+
+Nmap scan report for secure2.ifslab.net (192.168.1.232)
+Host is up (0.00052s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.3 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.15 ((CentOS))
+443/tcp open  ssl/http Apache httpd 2.2.15 ((CentOS))
+
+Nmap scan report for secure9.ifslab.net (192.168.1.239)
+Host is up (0.00043s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.3 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.15 ((CentOS))
+443/tcp open  ssl/http Apache httpd 2.2.15 ((CentOS))
+
+Nmap scan report for spr300a.ifslab.net (192.168.1.246)
+Host is up (0.00031s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE  VERSION
+21/tcp  open   ftp      vsftpd 2.0.5
+22/tcp  open   ssh      OpenSSH 4.3 (protocol 1.99)
+23/tcp  open   telnet   Linux telnetd
+25/tcp  closed smtp
+80/tcp  open   http     Apache httpd 2.2.3 ((CentOS))
+443/tcp open   ssl/http Apache httpd 2.2.3 ((CentOS))
+631/tcp closed ipp
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for spr300g.ifslab.net (192.168.1.252)
+Host is up (0.00029s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE  VERSION
+21/tcp  open   ftp      vsftpd 2.0.5
+22/tcp  open   ssh      OpenSSH 4.3 (protocol 1.99)
+23/tcp  open   telnet   Linux telnetd
+25/tcp  closed smtp
+80/tcp  open   http     Apache httpd 2.2.3 ((CentOS))
+443/tcp open   ssl/http Apache httpd 2.2.3 ((CentOS))
+631/tcp closed ipp
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for spr300h.ifslab.net (192.168.1.253)
+Host is up (0.00047s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE  VERSION
+21/tcp  open   ftp      vsftpd 2.0.5
+22/tcp  open   ssh      OpenSSH 4.3 (protocol 1.99)
+23/tcp  open   telnet   Linux telnetd
+25/tcp  closed smtp
+80/tcp  open   http     Apache httpd 2.2.3 ((CentOS))
+443/tcp open   ssl/http Apache httpd 2.2.3 ((CentOS))
+631/tcp closed ipp
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for spr300i.ifslab.net (192.168.1.254)
+Host is up (0.00037s latency).
+Not shown: 993 filtered ports
+PORT    STATE  SERVICE  VERSION
+21/tcp  closed ftp
+22/tcp  open   ssh      OpenSSH 4.3 (protocol 1.99)
+23/tcp  open   telnet   Linux telnetd
+25/tcp  closed smtp
+80/tcp  open   http     Apache httpd 2.2.3 ((CentOS))
+443/tcp open   ssl/http Apache httpd 2.2.3 ((CentOS))
+631/tcp closed ipp
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0012s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+
+Nmap scan report for 192.168.1.201
+Host is up (0.00042s latency).
+All 1000 scanned ports on 192.168.1.201 are closed
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 17 IP addresses (17 hosts up) scanned in 241.12 seconds
+----------------------------------------------------------------------------------------------------------------------------------------------
+nmap -sV -iL Hostlist-192.168.2.0.txt 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 06:03 EST
+Failed to resolve "192.168.2.1)".
+Failed to resolve "192.168.2.1)".
+Failed to resolve "192.168.2.31)".
+Failed to resolve "192.168.2.62)".
+Failed to resolve "192.168.2.64)".
+Nmap scan report for 192.168.2.4
+Host is up (0.00038s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+1025/tcp open  msrpc        Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.2.18
+Host is up (0.00054s latency).
+Not shown: 986 closed ports
+PORT     STATE SERVICE      VERSION
+7/tcp    open  echo
+9/tcp    open  discard?
+13/tcp   open  daytime      Microsoft Windows USA daytime
+17/tcp   open  qotd         Windows qotd (English)
+19/tcp   open  chargen
+21/tcp   open  ftp          Microsoft ftpd
+25/tcp   open  smtp         Microsoft ESMTP 6.0.2600.2180
+80/tcp   open  http         Microsoft IIS httpd 5.1
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  https?
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+515/tcp  open  printer      Microsoft lpd
+1026/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: x1-9a.ifslab.net; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.2.215
+Host is up (0.00052s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Apache httpd 2.2.14 ((Ubuntu))
+443/tcp open  http    Apache httpd 2.2.14 ((Ubuntu))
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 3 IP addresses (3 hosts up) scanned in 169.22 seconds
+-----------------------------------------------------------------------------------------------------------------------------
+nmap -sV -iL Hostlist-30.0.1.0.txt 
+-----------------------------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 06:14 EST
+Nmap scan report for carshop1.ifslab.net (30.0.1.2)
+Host is up (0.00036s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 4.7 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.2.6 ((Fedora))
+111/tcp  open  rpcbind  2-4 (RPC #100000)
+443/tcp  open  ssl/http Apache httpd 2.2.6 ((Fedora))
+3306/tcp open  mysql    MySQL (unauthorized)
+
+Nmap scan report for flower2a.ifslab.net (30.0.1.22)
+Host is up (0.00052s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 4.7 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.2.6 ((Fedora))
+111/tcp  open  rpcbind  2-4 (RPC #100000)
+443/tcp  open  ssl/http Apache httpd 2.2.6 ((Fedora))
+3306/tcp open  mysql    MySQL (unauthorized)
+
+Nmap scan report for flower6a.ifslab.net (30.0.1.36)
+Host is up (0.00042s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 4.7 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.2.6 ((Fedora))
+111/tcp  open  rpcbind  2-4 (RPC #100000)
+443/tcp  open  ssl/http Apache httpd 2.2.6 ((Fedora))
+3306/tcp open  mysql    MySQL (unauthorized)
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 3 IP addresses (3 hosts up) scanned in 19.28 seconds
+----------------------------------------------------------------------------------------------------
+nmap -sA -iL Hostlist-192.168.1.0.txt - Figure out which host is protected by firewall
+------------------------------------------------------------------------------------------------------
+Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 06:20 EST
+Failed to resolve "192.168.1.1)".
+Failed to resolve "192.168.1.1)".
+Nmap scan report for 192.168.1.187
+Host is up (0.00028s latency).
+Not shown: 997 filtered ports
+PORT    STATE      SERVICE
+22/tcp  unfiltered ssh
+80/tcp  unfiltered http
+443/tcp unfiltered https
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0010s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+
+Nmap scan report for 192.168.1.198
+Host is up (0.00039s latency).
+All 1000 scanned ports on 192.168.1.198 are unfiltered
+
+Nmap scan report for 192.168.1.200
+Host is up (0.00040s latency).
+All 1000 scanned ports on 192.168.1.200 are unfiltered
+
+Nmap scan report for 192.168.1.201
+Host is up (0.00039s latency).
+All 1000 scanned ports on 192.168.1.201 are unfiltered
+
+Nmap scan report for 192.168.1.211
+Host is up (0.00040s latency).
+All 1000 scanned ports on 192.168.1.211 are unfiltered
+
+Nmap scan report for 192.168.1.213
+Host is up (0.00040s latency).
+All 1000 scanned ports on 192.168.1.213 are unfiltered
+
+Nmap scan report for 192.168.1.229
+Host is up (0.00039s latency).
+All 1000 scanned ports on 192.168.1.229 are unfiltered
+
+Nmap scan report for secure1.ifslab.net (192.168.1.231)
+Host is up (0.00026s latency).
+Not shown: 997 filtered ports
+PORT    STATE      SERVICE
+22/tcp  unfiltered ssh
+80/tcp  unfiltered http
+443/tcp unfiltered https
+
+Nmap scan report for secure2.ifslab.net (192.168.1.232)
+Host is up (0.00049s latency).
+Not shown: 997 filtered ports
+PORT    STATE      SERVICE
+22/tcp  unfiltered ssh
+80/tcp  unfiltered http
+443/tcp unfiltered https
+
+Nmap scan report for secure9.ifslab.net (192.168.1.239)
+Host is up (0.00034s latency).
+Not shown: 997 filtered ports
+PORT    STATE      SERVICE
+22/tcp  unfiltered ssh
+80/tcp  unfiltered http
+443/tcp unfiltered https
+
+Nmap scan report for spr300a.ifslab.net (192.168.1.246)
+Host is up (0.00025s latency).
+Not shown: 993 filtered ports
+PORT    STATE      SERVICE
+21/tcp  unfiltered ftp
+22/tcp  unfiltered ssh
+23/tcp  unfiltered telnet
+25/tcp  unfiltered smtp
+80/tcp  unfiltered http
+443/tcp unfiltered https
+631/tcp unfiltered ipp
+
+Nmap scan report for spr300g.ifslab.net (192.168.1.252)
+Host is up (0.00027s latency).
+Not shown: 993 filtered ports
+PORT    STATE      SERVICE
+21/tcp  unfiltered ftp
+22/tcp  unfiltered ssh
+23/tcp  unfiltered telnet
+25/tcp  unfiltered smtp
+80/tcp  unfiltered http
+443/tcp unfiltered https
+631/tcp unfiltered ipp
+
+Nmap scan report for spr300h.ifslab.net (192.168.1.253)
+Host is up (0.00036s latency).
+Not shown: 993 filtered ports
+PORT    STATE      SERVICE
+21/tcp  unfiltered ftp
+22/tcp  unfiltered ssh
+23/tcp  unfiltered telnet
+25/tcp  unfiltered smtp
+80/tcp  unfiltered http
+443/tcp unfiltered https
+631/tcp unfiltered ipp
+
+Nmap scan report for spr300i.ifslab.net (192.168.1.254)
+Host is up (0.00027s latency).
+Not shown: 993 filtered ports
+PORT    STATE      SERVICE
+21/tcp  unfiltered ftp
+22/tcp  unfiltered ssh
+23/tcp  unfiltered telnet
+25/tcp  unfiltered smtp
+80/tcp  unfiltered http
+443/tcp unfiltered https
+631/tcp unfiltered ipp
+
+Nmap scan report for state.ifslab.net (192.168.1.190)
+Host is up (0.0011s latency).
+All 1000 scanned ports on state.ifslab.net (192.168.1.190) are filtered
+
+Nmap scan report for 192.168.1.201
+Host is up (0.00036s latency).
+All 1000 scanned ports on 192.168.1.201 are unfiltered
+
+Nmap done: 17 IP addresses (17 hosts up) scanned in 32.28 seconds
+
+
