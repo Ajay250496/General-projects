@@ -20,21 +20,13 @@ ListScan()
 PickScan()
 
 {
-	x = ' '
-	while  [$x == 'yes'];
-	do 
-		echo "Which network would you like to run?
-1) 192.168.1.0
-2) 192.168.2.0
-3) 30.0.1.0
-	"
-		read answer
-		echo "Do you want to run another scan?"
-		read x
-		echo $x 	
-	done
 
-	
+	echo "Which network would you like to run?
+	      1) 192.168.1.0
+	      2) 192.168.2.0
+	      3) 30.0.1.0"
+	read answer
+	echo $answer
 }
 
 PickScan
