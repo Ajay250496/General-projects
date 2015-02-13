@@ -231,37 +231,6 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 8099/tcp open  unknown
 
-Nmap scan report for server08-8A.ifslab.net (192.168.2.62)
-Host is up (0.00026s latency).
-Not shown: 973 closed ports
-PORT      STATE SERVICE
-42/tcp    open  nameserver
-53/tcp    open  domain
-80/tcp    open  http
-111/tcp   open  rpcbind
-135/tcp   open  msrpc
-139/tcp   open  netbios-ssn
-443/tcp   open  https
-445/tcp   open  microsoft-ds
-593/tcp   open  http-rpc-epmap
-1039/tcp  open  sbl
-1047/tcp  open  neod1
-1048/tcp  open  neod2
-1801/tcp  open  msmq
-2049/tcp  open  nfs
-2103/tcp  open  zephyr-clt
-2105/tcp  open  eklogin
-2107/tcp  open  msmq-mgmt
-3389/tcp  open  ms-wbt-server
-49152/tcp open  unknown
-49153/tcp open  unknown
-49154/tcp open  unknown
-49155/tcp open  unknown
-49156/tcp open  unknown
-49157/tcp open  unknown
-49158/tcp open  unknown
-49175/tcp open  unknown
-49176/tcp open  unknown
 
 Nmap scan report for server12-1A.ifslab.net (192.168.2.64)
 Host is up (0.00025s latency).
@@ -514,11 +483,7 @@ Nmap done: 17 IP addresses (17 hosts up) scanned in 241.12 seconds
 nmap -sV -iL Hostlist-192.168.2.0.txt 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 06:03 EST
-Failed to resolve "192.168.2.1)".
-Failed to resolve "192.168.2.1)".
-Failed to resolve "192.168.2.31)".
-Failed to resolve "192.168.2.62)".
-Failed to resolve "192.168.2.64)".
+
 Nmap scan report for 192.168.2.4
 Host is up (0.00038s latency).
 Not shown: 996 closed ports
