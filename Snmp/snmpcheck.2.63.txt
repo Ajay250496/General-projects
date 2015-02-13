@@ -1,0 +1,500 @@
+snmpcheck v1.8 - SNMP enumerator
+Copyright (c) 2005-2011 by Matteo Cantoni (www.nothink.org)
+
+ [*] Try to connect to 192.168.2.63
+ [*] Connected to 192.168.2.63
+ [*] Starting enumeration at 2015-02-13 06:29:34
+
+ [*] System information
+ -----------------------------------------------------------------------------------------------
+
+ Hostname               : 8-8a
+ Description            : Hardware: Intel64 Family 6 Model 44 Stepping 2 AT/AT COMPATIBLE - Software: Windows Version 6.2 (Build 9200 Multiprocessor Free)
+ Uptime system          : 3 days, 02:20:45.97
+ Uptime SNMP daemon     : 10 days, 00:07:41.54
+ Motd                   : -
+ Domain (NT)            : WORKGROUP
+
+ [*] Devices information
+ -----------------------------------------------------------------------------------------------
+
+    Id                 Type   Status  Description
+
+     1            Processor  Running  Unknown Processor Type
+    10              Network  Unknown  WAN Miniport (Network Monitor)
+    11              Network  Unknown  Microsoft Kernel Debug Network Adapter
+    12              Network  Unknown  RAS Async Adapter
+    13              Network  Unknown  Intel(R) 82574L Gigabit Network Connection
+    14              Network  Unknown  Microsoft ISATAP Adapter
+    15              Network  Unknown  WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+    16              Network  Unknown  WAN Miniport (IP)-QoS Packet Scheduler-0000
+    17              Network  Unknown  Intel(R) 82574L Gigabit Network Connection-QoS Packet Scheduler-
+    18              Network  Unknown  Intel(R) 82574L Gigabit Network Connection-WFP 802.3 MAC Layer L
+    19              Network  Unknown  Intel(R) 82574L Gigabit Network Connection-WFP Native MAC Layer 
+     2              Network  Unknown  Software Loopback Interface 1
+    20              Network  Unknown  WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+    21         Disk Storage  Unknown  A:\
+    22         Disk Storage  Unknown  D:\
+    23         Disk Storage  Running  Fixed Disk
+    24             Keyboard  Running  IBM enhanced (101- or 102-key) keyboard, Subtype=(0)
+    25        Parallel Port  Unknown  LPT1:
+    26          Serial Port  Unknown  COM1:
+    27          Serial Port  Unknown  COM2:
+     3              Network  Unknown  WAN Miniport (L2TP)
+     4              Network  Unknown  WAN Miniport (SSTP)
+     5              Network  Unknown  WAN Miniport (IKEv2)
+     6              Network  Unknown  WAN Miniport (PPTP)
+     7              Network  Unknown  WAN Miniport (PPPOE)
+     8              Network  Unknown  WAN Miniport (IP)
+     9              Network  Unknown  WAN Miniport (IPv6)
+
+ [*] Storage information
+ -----------------------------------------------------------------------------------------------
+
+ A:\
+	Device id       : 1
+	Device type     : Removable Disk
+	Filesystem type : Unknown
+
+ C:\ Label:  Serial Number cefe57b1
+	Device id       : 2
+	Device type     : Fixed Disk
+	Filesystem type : NTFS
+	Device units    : 4096
+	Memory size     : 32G
+	Memory used     : 12G
+	Memory free     : 21G
+
+ D:\
+	Device id       : 3
+	Device type     : Compact Disc
+	Filesystem type : Fat
+
+ Virtual Memory
+	Device id       : 4
+	Device type     : Virtual Memory
+	Filesystem type : Unknown
+	Device units    : 65536
+	Memory size     : 4.0G
+	Memory used     : 732M
+	Memory free     : 3.3G
+
+ Physical Memory
+	Device id       : 5
+	Device type     : Ram
+	Filesystem type : Unknown
+	Device units    : 65536
+	Memory size     : 2.0G
+	Memory used     : 582M
+	Memory free     : 1.5G
+
+
+ [*] User accounts
+ -----------------------------------------------------------------------------------------------
+
+ Administrator
+ Guest
+ HomeGroupUser$
+ User1
+
+ [*] Processes
+ -----------------------------------------------------------------------------------------------
+
+ Total processes : 44
+
+ Process type    : 1 unknown, 2 operating system, 3 device driver, 4 application
+ Process status  : 1 running, 2 runnable, 3 not runnable, 4 invalid
+
+ Process id              Process name  Process type  Process status  Process path
+
+          1       System Idle Process             2               1  
+       1060               spoolsv.exe             4               1  C:\Windows\System32\
+       1084               svchost.exe             4               1  C:\Windows\system32\
+       1196               svchost.exe             4               1  C:\Windows\system32\
+       1224                Defrag.exe             4               1  C:\Windows\system32\
+       1244               svchost.exe             4               1  C:\Windows\system32\
+       1268               dasHost.exe             4               1  
+       1408               TCPSVCS.EXE             4               1  C:\Windows\System32\
+       1440                  snmp.exe             4               1  C:\Windows\System32\
+       1520              vmtoolsd.exe             4               1  C:\Program Files\VMware\VMware Tools\
+       1604               svchost.exe             4               1  C:\Windows\system32\
+       1644               MsMpEng.exe             4               1  C:\Program Files\Windows Defender\
+       1696               svchost.exe             4               1  C:\Windows\system32\
+       1772               nfsclnt.exe             4               1  C:\Windows\system32\
+       1904            taskhostex.exe             4               1  
+       1928              wmpnetwk.exe             4               1  C:\Program Files\Windows Media Player\
+       2040               svchost.exe             4               1  C:\Windows\system32\
+       2068         SearchIndexer.exe             4               1  C:\Windows\system32\
+       2296                 msdtc.exe             4               1  C:\Windows\System32\
+       2620               svchost.exe             4               1  C:\Windows\System32\
+       2748               svchost.exe             4               1  C:\Windows\system32\
+        288                  smss.exe             4               1  \SystemRoot\System32\
+       3080               dllhost.exe             4               1  C:\Windows\system32\
+       3208            taskhostex.exe             4               1  
+       3300               conhost.exe             4               1  \??\C:\Windows\system32\
+       3552                  w3wp.exe             4               1  C:\Windows\SysWOW64\inetsrv\
+       3608               svchost.exe             4               1  C:\Windows\system32\
+       3612              explorer.exe             4               1  C:\Windows\
+        388                 csrss.exe             4               1  %SystemRoot%\system32\
+       3940              vmtoolsd.exe             4               1  C:\Program Files\VMware\VMware Tools\
+          4                    System             2               1  
+        452               svchost.exe             4               1  C:\Windows\system32\
+        456               wininit.exe             4               1  
+        464                 csrss.exe             4               1  %SystemRoot%\system32\
+        504              winlogon.exe             4               1  
+        552              services.exe             4               1  C:\Windows\system32\
+        568                 lsass.exe             4               1  C:\Windows\system32\
+        628               svchost.exe             4               1  C:\Windows\system32\
+        640               svchost.exe             4               1  C:\Windows\system32\
+        708               svchost.exe             4               1  C:\Windows\system32\
+        748                  w3wp.exe             4               1  C:\Windows\SysWOW64\inetsrv\
+        772                   dwm.exe             4               1  
+        868               svchost.exe             4               1  C:\Windows\System32\
+        900               svchost.exe             4               1  C:\Windows\system32\
+        932               svchost.exe             4               1  C:\Windows\system32\
+
+ [*] Network information
+ -----------------------------------------------------------------------------------------------
+
+ IP forwarding enabled   : no
+ Default TTL             : 128
+ TCP segments received   : 115972
+ TCP segments sent       : 81739
+ TCP segments retrans.   : 8
+ Input datagrams         : 555627
+ Delivered datagrams     : 562706
+ Output datagrams        : 121042
+
+ [*] Network interfaces
+ -----------------------------------------------------------------------------------------------
+
+ Interface               : [ up ] Software Loopback Interface 1 
+
+	Interface Speed  : 1073.741824 Mbps
+	IP Address       : 127.0.0.1
+	Netmask          : 255.0.0.0
+	MTU              : 1500
+
+ Interface               : [ up ] Microsoft Kernel Debug Network Adapter 
+
+	IP Address       : 192.168.2.63
+	Netmask          : 255.255.255.0
+
+ Interface               : [ up ] RAS Async Adapter 
+
+
+ Interface               : [ up ] Intel(R) 82574L Gigabit Network Connection 
+
+	Hardware Address : 00:0c:29:a0:7c:9c
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 59314157 (57M)
+	Bytes Out        : 28197635 (27M)
+
+ Interface               : [ up ] Microsoft ISATAP Adapter 
+
+	Hardware Address : 00:00:00:00:00:00:00:e0
+	Interface Speed  : 0.1 Mbps
+	MTU              : 1280
+
+ Interface               : [ up ] WAN Miniport (IPv6)-QoS Packet Scheduler-0000 
+
+	MTU              : 1500
+
+ Interface               : [ up ] WAN Miniport (IP)-QoS Packet Scheduler-0000 
+
+	MTU              : 1500
+
+ Interface               : [ up ] Intel(R) 82574L Gigabit Network Connection-QoS Packet Scheduler-0000 
+
+	Hardware Address : 00:0c:29:a0:7c:9c
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 59314157 (57M)
+	Bytes Out        : 28197635 (27M)
+
+ Interface               : [ up ] Intel(R) 82574L Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000 
+
+	Hardware Address : 00:0c:29:a0:7c:9c
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 59314157 (57M)
+	Bytes Out        : 28197635 (27M)
+
+ Interface               : [ up ] Intel(R) 82574L Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 
+
+	Hardware Address : 00:0c:29:a0:7c:9c
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 59314157 (57M)
+	Bytes Out        : 28197635 (27M)
+
+ Interface               : [ up ] WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000 
+
+	MTU              : 1500
+
+ Interface               : [ up ] WAN Miniport (L2TP) 
+
+	MTU              : 1460
+
+ Interface               : [ up ] WAN Miniport (SSTP) 
+
+	MTU              : 4091
+
+ Interface               : [ up ] WAN Miniport (IKEv2) 
+
+	MTU              : 1480
+
+ Interface               : [ up ] WAN Miniport (PPTP) 
+
+	MTU              : 1464
+
+ Interface               : [ up ] WAN Miniport (PPPOE) 
+
+	MTU              : 1494
+
+ Interface               : [ up ] WAN Miniport (IP) 
+
+	MTU              : 1500
+
+ Interface               : [ up ] WAN Miniport (IPv6) 
+
+	MTU              : 1500
+
+ Interface               : [ up ] WAN Miniport (Network Monitor) 
+
+	MTU              : 1500
+
+
+ [*] Routing information
+ -----------------------------------------------------------------------------------------------
+
+      Destination	  Next Hop	       Mask	Metric
+
+          0.0.0.0      192.168.2.1          0.0.0.0      266
+        127.0.0.0        127.0.0.1        255.0.0.0      306
+        127.0.0.1        127.0.0.1  255.255.255.255      306
+  127.255.255.255        127.0.0.1  255.255.255.255      306
+      192.168.2.0     192.168.2.63    255.255.255.0      266
+    192.168.2.255     192.168.2.63  255.255.255.255      266
+     192.168.2.63     192.168.2.63  255.255.255.255      266
+        224.0.0.0        127.0.0.1        240.0.0.0      306
+
+ [*] Network services
+ -----------------------------------------------------------------------------------------------
+
+ Application Host Helper Service
+ Application Information
+ Background Tasks Infrastructure Service
+ Base Filtering Engine
+ COM+ Event System
+ Certificate Propagation
+ Client for NFS
+ Computer Browser
+ Cryptographic Services
+ DCOM Server Process Launcher
+ DHCP Client
+ DNS Client
+ Device Association Service
+ Device Setup Manager
+ Diagnostic Policy Service
+ Diagnostic Service Host
+ Distributed Link Tracking Client
+ Distributed Transaction Coordinator
+ Function Discovery Provider Host
+ Function Discovery Resource Publication
+ Group Policy Client
+ HomeGroup Listener
+ HomeGroup Provider
+ IKE and AuthIP IPsec Keying Modules
+ IP Helper
+ IPsec Policy Agent
+ Local Session Manager
+ Microsoft FTP Service
+ Network Connected Devices Auto-Setup
+ Network Connections
+ Network List Service
+ Network Location Awareness
+ Network Store Interface Service
+ Optimize drives
+ Peer Name Resolution Protocol
+ Peer Networking Grouping
+ Peer Networking Identity Manager
+ Plug and Play
+ Power
+ Print Spooler
+ Program Compatibility Assistant Service
+ RPC Endpoint Mapper
+ Remote Desktop Configuration
+ Remote Desktop Services
+ Remote Desktop Services UserMode Port Redirector
+ Remote Procedure Call (RPC)
+ SNMP Service
+ SSDP Discovery
+ Security Accounts Manager
+ Security Center
+ Server
+ Shell Hardware Detection
+ Simple TCP/IP Services
+ Superfetch
+ System Event Notification Service
+ System Events Broker
+ TCP/IP NetBIOS Helper
+ Task Scheduler
+ Themes
+ Time Broker
+ UPnP Device Host
+ User Profile Service
+ VMware Tools
+ WinHTTP Web Proxy Auto-Discovery Service
+ Windows Audio
+ Windows Audio Endpoint Builder
+ Windows Connection Manager
+ Windows Defender Service
+ Windows Event Log
+ Windows Firewall
+ Windows Font Cache Service
+ Windows Management Instrumentation
+ Windows Media Player Network Sharing Service
+ Windows Process Activation Service
+ Windows Search
+ Windows Time
+ Workstation
+ World Wide Web Publishing Service
+
+ [*] Listening TCP ports and connections
+ -----------------------------------------------------------------------------------------------
+
+   Local Address   Port      Remote Address   Port       State
+
+         0.0.0.0  10243             0.0.0.0      -       Listening
+         0.0.0.0     13             0.0.0.0      -       Listening
+         0.0.0.0    135             0.0.0.0      -       Listening
+         0.0.0.0     17             0.0.0.0      -       Listening
+         0.0.0.0     19             0.0.0.0      -       Listening
+         0.0.0.0     21             0.0.0.0      -       Listening
+         0.0.0.0   2869             0.0.0.0      -       Listening
+         0.0.0.0   3389             0.0.0.0      -       Listening
+         0.0.0.0    445             0.0.0.0      -       Listening
+         0.0.0.0  49152             0.0.0.0      -       Listening
+         0.0.0.0  49153             0.0.0.0      -       Listening
+         0.0.0.0  49154             0.0.0.0      -       Listening
+         0.0.0.0  49155             0.0.0.0      -       Listening
+         0.0.0.0  49156             0.0.0.0      -       Listening
+         0.0.0.0  49157             0.0.0.0      -       Listening
+         0.0.0.0   5357             0.0.0.0      -       Listening
+         0.0.0.0    554             0.0.0.0      -       Listening
+         0.0.0.0      7             0.0.0.0      -       Listening
+         0.0.0.0     80             0.0.0.0      -       Listening
+         0.0.0.0      9             0.0.0.0      -       Listening
+    192.168.2.63    139             0.0.0.0      -       Listening
+    192.168.2.63   2869        172.16.2.108  58867      Close wait
+    192.168.2.63   2869        172.16.2.108  58908      Close wait
+    192.168.2.63   2869        172.16.2.138  40346     Established
+    192.168.2.63   2869        172.16.2.138  40360     Established
+    192.168.2.63   2869        172.16.2.138  40370     Established
+    192.168.2.63   2869        172.16.2.138  40392     Established
+    192.168.2.63   2869         172.16.2.29  35723      Close wait
+    192.168.2.63   2869         172.16.2.29  35793      Close wait
+    192.168.2.63   2869         172.16.2.29  36190      Close wait
+    192.168.2.63   2869         172.16.2.29  36394      Close wait
+    192.168.2.63   2869         172.16.2.29  36496      Close wait
+    192.168.2.63   2869         172.16.2.29  36566      Close wait
+    192.168.2.63   2869         172.16.2.29  36639      Close wait
+    192.168.2.63   2869         172.16.2.29  36783      Close wait
+    192.168.2.63   2869         172.16.2.29  36790      Close wait
+    192.168.2.63   2869         172.16.2.29  36798      Close wait
+    192.168.2.63   2869         172.16.2.29  36804      Close wait
+    192.168.2.63   2869         172.16.2.29  36814      Close wait
+    192.168.2.63   2869         172.16.2.29  36821      Close wait
+    192.168.2.63   2869         172.16.2.29  36828      Close wait
+    192.168.2.63   2869         172.16.2.29  36835      Close wait
+    192.168.2.63   2869         172.16.2.29  36843      Close wait
+    192.168.2.63   2869         172.16.2.29  36850      Close wait
+    192.168.2.63   2869         172.16.2.29  37229      Close wait
+    192.168.2.63   2869         172.16.2.29  37299      Close wait
+    192.168.2.63    554        172.16.2.108  56982      Close wait
+    192.168.2.63    554        172.16.2.108  57013      Close wait
+    192.168.2.63    554        172.16.2.108  57026      Close wait
+    192.168.2.63    554        172.16.2.108  57048      Close wait
+    192.168.2.63    554        172.16.2.108  57077      Close wait
+    192.168.2.63    554        172.16.2.108  57098      Close wait
+    192.168.2.63    554        172.16.2.108  57129      Close wait
+    192.168.2.63    554        172.16.2.108  57148      Close wait
+    192.168.2.63    554        172.16.2.108  57189      Close wait
+    192.168.2.63    554        172.16.2.108  57216      Close wait
+    192.168.2.63    554        172.16.2.108  57240      Close wait
+    192.168.2.63    554        172.16.2.108  57304      Close wait
+    192.168.2.63    554        172.16.2.108  57337      Close wait
+    192.168.2.63    554        172.16.2.108  57349      Close wait
+    192.168.2.63    554        172.16.2.108  57356      Close wait
+    192.168.2.63    554        172.16.2.108  57360      Close wait
+    192.168.2.63    554        172.16.2.108  57369      Close wait
+    192.168.2.63    554        172.16.2.108  57375      Close wait
+    192.168.2.63    554        172.16.2.108  57381      Close wait
+
+ [*] Listening UDP ports
+ -----------------------------------------------------------------------------------------------
+
+   Local Address   Port
+
+         0.0.0.0    123
+         0.0.0.0     13
+         0.0.0.0    161
+         0.0.0.0     17
+         0.0.0.0     19
+         0.0.0.0   3389
+         0.0.0.0   3702
+         0.0.0.0   4500
+         0.0.0.0    500
+         0.0.0.0   5004
+         0.0.0.0   5005
+         0.0.0.0  50640
+         0.0.0.0  50642
+         0.0.0.0  51194
+         0.0.0.0   5355
+         0.0.0.0  57415
+         0.0.0.0  57417
+         0.0.0.0      7
+         0.0.0.0      9
+         0.0.0.0    910
+       127.0.0.1   1900
+       127.0.0.1  56559
+    192.168.2.63    137
+    192.168.2.63    138
+    192.168.2.63   1900
+
+ [*] Software components
+ -----------------------------------------------------------------------------------------------
+
+ 1. VMware Tools
+ 2. Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161
+
+ [*] Non-administrative shares
+ -----------------------------------------------------------------------------------------------
+
+ Share Name : Users
+ Path       : C:\Users
+ Comments   : 
+
+
+ [*] Web server information
+ -----------------------------------------------------------------------------------------------
+
+ Total bytes sent low word     : 6.0M
+ Total bytes received low word : 2.2M
+ Total files sent              : 4914
+ Current anonymous users       : 3
+ Total non anonymous users     : 4928
+ Max non anonymous users       : 11
+ Connection attempts           : 5
+ Logon attempts                : 4104
+ Total gets                    : 5254
+ Total posts                   : 23
+ Total heads                   : 6877
+ Total others                  : 39
+ Total CGI requests            : 7
+ Total BGI requests            : 3
+ Total not found errors        : 1
+
+ [*] Enumerated 192.168.2.63 in 1.19 seconds
