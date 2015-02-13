@@ -79,4 +79,84 @@ PORT      STATE SERVICE
 49175/tcp open  unknown
 49176/tcp open  unknown
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GHOST SCAN ON THIS HOST
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nmap scan report for 192.168.1.213
+Host is up (0.00038s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          vsftpd 2.3.4
+22/tcp   open  ssh          OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp   open  telnet?
+25/tcp   open  smtp?
+53/tcp   open  domain       ISC BIND 9.4.2
+80/tcp   open  http         Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+111/tcp  open  rpcbind      2 (RPC #100000)
+139/tcp  open  netbios-ssn  Samba smbd 3.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn  Samba smbd 3.X (workgroup: WORKGROUP)
+512/tcp  open  exec?
+513/tcp  open  login?
+514/tcp  open  shell?
+1099/tcp open  rmiregistry  GNU Classpath grmiregistry
+1524/tcp open  shell        Metasploitable root shell
+2049/tcp open  nfs          2-4 (RPC #100003)
+2121/tcp open  ccproxy-ftp?
+3306/tcp open  mysql        MySQL (Too many connections)
+5432/tcp open  postgresql   PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp open  vnc          VNC (protocol 3.3)
+6000/tcp open  X11          (access denied)
+6667/tcp open  irc          Unreal ircd
+8009/tcp open  ajp13        Apache Jserv (Protocol v1.3)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MALWARE SCAN ON THIS HOST
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nmap scan report for 192.168.2.18
+Host is up (0.00054s latency).
+Not shown: 986 closed ports
+PORT     STATE SERVICE      VERSION
+7/tcp    open  echo
+9/tcp    open  discard?
+13/tcp   open  daytime      Microsoft Windows USA daytime
+17/tcp   open  qotd         Windows qotd (English)
+19/tcp   open  chargen
+21/tcp   open  ftp          Microsoft ftpd
+25/tcp   open  smtp         Microsoft ESMTP 6.0.2600.2180
+80/tcp   open  http         Microsoft IIS httpd 5.1
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  https?
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+515/tcp  open  printer      Microsoft lpd
+1026/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: x1-9a.ifslab.net; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WEBSCAN SCAN ON THIS HOST
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nmap scan report for server03-1A.ifslab.net (192.168.2.31)
+Host is up (0.00042s latency).
+Not shown: 981 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+42/tcp   open  nameserver
+80/tcp   open  http
+110/tcp  open  pop3
+119/tcp  open  nntp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+563/tcp  open  snews
+1025/tcp open  NFS-or-IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+1030/tcp open  iad1
+1031/tcp open  iad2
+1033/tcp open  netinfo
+3389/tcp open  ms-wbt-server
+8099/tcp open  unknown
+
 
