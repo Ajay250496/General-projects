@@ -49,7 +49,25 @@ k) Is there volume slack?
 
 l) How many deleted directories/files are there?
 
-6  Deleted files
+24  Deleted files
+
+
+6. Give the full path name of the secret plan you found. 
+C:/.Trash-1000/files/TOPSECRET/Secret Plan
+
+7. Give the full path name of where the file was originally.
+
+C:/Diretory/SubDirectory/SubSubDirectory/TOPSECRET/Secret Plan
+
+8. List the disk volume sector(s) (physical sectors) it occupies. This is so another investigator can recover the same evidence from the original image.
+
+Sector 784
+
+9. When was it created, last accessed and last modified?
+
+Created: Wed Sep 23 11:27:14 2009 
+Accessed: Wed Sep 23 00:00:00 2009 
+Written: Wed Sep 23 11:27:14 2009 
 
 
 
