@@ -1,0 +1,56 @@
+------------------------------------------------------------------------------------------------------------------------------------
+							LAB: EXAMINING MBR			Date:Tuesday 17th, Feb 2015 
+------------------------------------------------------------------------------------------------------------------------------------
+
+3. 
+
+a) What is the size in sectors of the volume?
+
+Sector size 512
+
+b) Is there a partition table?
+
+Yes, If you go to Data unit and view the 0th sector you notice the last values are 55aa which indicates a partition table.
+
+c) On what type of media do you think the original was stored?
+
+I think the media was stored on a USB because it has a file syten of FAT16, and FAT 16 is generally used for small memory devices which is what USB's generally are.
+
+d) What is the file system type?
+
+FAT16
+
+e) What is the volume label?
+
+NO NAME
+
+f) Where is the root directory (sector address, cluster address)?
+
+Sector Address: 496 - 527 
+Cluster Address: 31-33
+
+g) Where is FAT 0 located (sector address, cluster number)?
+
+Sector address: 4 - 249 
+Cluster Address: 1 - 16
+
+h) What is the cluster size (in sectors)?
+
+512
+
+i) What is the cluster range (in sectors and clusters)?
+
+Sectors: 2 - 62878 
+Clusters: 1 - 3929.875
+
+j) Use the cluster values to calculate the capacity of the volume. Does it match the size reported in the first question?
+
+k) Is there volume slack?
+
+l) How many deleted directories/files are there?
+
+6  Deleted files
+
+
+
+

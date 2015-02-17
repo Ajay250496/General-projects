@@ -1,0 +1,1057 @@
+snmpcheck v1.8 - SNMP enumerator
+Copyright (c) 2005-2011 by Matteo Cantoni (www.nothink.org)
+
+ [*] Try to connect to 40.0.1.1
+ [*] Connected to 40.0.1.1
+ [*] Starting enumeration at 2015-02-17 11:00:57
+
+ [*] System information
+ -----------------------------------------------------------------------------------------------
+
+ Hostname               : IFS-Core0.ifslab.net
+ Description            : Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE9, RELEASE SOFTWARE (fc1)Technical Support: http://www.cisco.com/techsupportCopyright (c) 1986-2014 by Cisco Systems, Inc.Compiled Mon 03-Mar-14 22:36 by prod_rel_team
+ Uptime system          : 0.00 seconds
+ Uptime SNMP daemon     : 43 days, 01:46:14.28
+ Motd                   : -
+
+ [*] Network information
+ -----------------------------------------------------------------------------------------------
+
+ IP forwarding enabled   : 1
+ Default TTL             : 255
+ TCP segments received   : 1800287
+ TCP segments sent       : 1730230
+ TCP segments retrans.   : 269
+ Input datagrams         : 13175068
+ Delivered datagrams     : 8120230
+ Output datagrams        : 7803683
+
+ [*] Network interfaces
+ -----------------------------------------------------------------------------------------------
+
+ Interface               : [ up ] Vlan1
+
+	Hardware Address : 00:26:98:6e:6d:c0
+	Interface Speed  : 1000 Mbps
+	IP Address       : 10.10.10.1
+	Netmask          : 255.255.255.128
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan10
+
+	Hardware Address : 00:26:98:6e:6d:c9
+	Interface Speed  : 1000 Mbps
+	IP Address       : 10.20.0.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes In         : 75892687 (73M)
+	Bytes Out        : 43163599 (42M)
+
+ Interface               : [ up ] Vlan100
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.1.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 36792588 (36M)
+
+ Interface               : [ up ] Vlan101
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.100.1
+	Netmask          : 255.255.255.192
+	MTU              : 1500
+	Bytes In         : 23991198 (23M)
+	Bytes Out        : 2603808 (2.5M)
+
+ Interface               : [ up ] GigabitEthernet0/1
+
+	Hardware Address : 00:26:98:6e:6d:81
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.2.1
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 160053 (157K)
+	Bytes Out        : 601007 (587K)
+
+ Interface               : [ up ] GigabitEthernet0/2
+
+	Hardware Address : 00:26:98:6e:6d:82
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.2.129
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 1318298677 (1.3G)
+	Bytes Out        : 1743209611 (1.7G)
+
+ Interface               : [ up ] GigabitEthernet0/3
+
+	Hardware Address : 00:26:98:6e:6d:83
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.2.161
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/4
+
+	Hardware Address : 00:26:98:6e:6d:84
+	Interface Speed  : 100 Mbps
+	IP Address       : 172.16.2.193
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 4008434819 (3.8G)
+	Bytes Out        : 3276071432 (3.1G)
+
+ Interface               : [ up ] GigabitEthernet0/5
+
+	Hardware Address : 00:26:98:6e:6d:85
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.2.225
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 64012711 (62M)
+	Bytes Out        : 356342444 (340M)
+
+ Interface               : [ up ] GigabitEthernet0/6
+
+	Hardware Address : 00:26:98:6e:6d:86
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.2.33
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 54441511 (52M)
+	Bytes Out        : 128929536 (123M)
+
+ Interface               : [ up ] GigabitEthernet0/7
+
+	Hardware Address : 00:26:98:6e:6d:87
+	Interface Speed  : 100 Mbps
+	IP Address       : 172.16.2.65
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 36144 (36K)
+	Bytes Out        : 89706192 (86M)
+
+ Interface               : [ up ] GigabitEthernet0/8
+
+	Hardware Address : 00:26:98:6e:6d:88
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.2.97
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/9
+
+	Hardware Address : 00:26:98:6e:6d:89
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.200.1
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/10
+
+	Hardware Address : 00:26:98:6e:6d:8a
+	Interface Speed  : 100 Mbps
+	IP Address       : 172.16.3.1
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 5132789 (4.9M)
+	Bytes Out        : 203442629 (195M)
+
+ Interface               : [ up ] GigabitEthernet0/11
+
+	Hardware Address : 00:26:98:6e:6d:8b
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.113
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 3569041917 (3.4G)
+	Bytes Out        : 4112339434 (3.9G)
+
+ Interface               : [ up ] GigabitEthernet0/12
+
+	Hardware Address : 00:26:98:6e:6d:8c
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.129
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 23755745 (23M)
+	Bytes Out        : 53542296 (52M)
+
+ Interface               : [ up ] GigabitEthernet0/13
+
+	Hardware Address : 00:26:98:6e:6d:8d
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.145
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 1412742720 (1.4G)
+	Bytes Out        : 586285346 (560M)
+
+ Interface               : [ up ] GigabitEthernet0/14
+
+	Hardware Address : 00:26:98:6e:6d:8e
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.161
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 1712368587 (1.6G)
+	Bytes Out        : 107609736 (103M)
+
+ Interface               : [ up ] GigabitEthernet0/15
+
+	Hardware Address : 00:26:98:6e:6d:8f
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.17
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 2970984581 (2.8G)
+	Bytes Out        : 4158767458 (3.9G)
+
+ Interface               : [ up ] GigabitEthernet0/16
+
+	Hardware Address : 00:26:98:6e:6d:90
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.177
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 1564472027 (1.5G)
+	Bytes Out        : 1645767536 (1.6G)
+
+ Interface               : [ up ] GigabitEthernet0/17
+
+	Hardware Address : 00:26:98:6e:6d:91
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.193
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 281529787 (269M)
+	Bytes Out        : 3331273752 (3.2G)
+
+ Interface               : [ up ] GigabitEthernet0/18
+
+	Hardware Address : 00:26:98:6e:6d:92
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.209
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 1649240601 (1.6G)
+	Bytes Out        : 1758728601 (1.7G)
+
+ Interface               : [ up ] GigabitEthernet0/19
+
+	Hardware Address : 00:26:98:6e:6d:93
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.3.225
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/20
+
+	Hardware Address : 00:26:98:6e:6d:94
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.3.241
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/21
+
+	Hardware Address : 00:26:98:6e:6d:95
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.33
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 373374124 (357M)
+	Bytes Out        : 3027548956 (2.9G)
+
+ Interface               : [ up ] GigabitEthernet0/22
+
+	Hardware Address : 00:26:98:6e:6d:96
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.3.49
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/23
+
+	Hardware Address : 00:26:98:6e:6d:97
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.65
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 3220508295 (3.0G)
+	Bytes Out        : 1136934218 (1.1G)
+
+ Interface               : [ up ] GigabitEthernet0/24
+
+	Hardware Address : 00:26:98:6e:6d:98
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.3.81
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 1135892103 (1.1G)
+	Bytes Out        : 4039258177 (3.8G)
+
+ Interface               : [ up ] GigabitEthernet0/25
+
+	Hardware Address : 00:26:98:6e:6d:99
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.3.97
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/26
+
+	Hardware Address : 00:26:98:6e:6d:9a
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.4.1
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/27
+
+	Hardware Address : 00:26:98:6e:6d:9b
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.4.105
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+
+ Interface               : [ up ] GigabitEthernet0/28
+
+	Hardware Address : 00:26:98:6e:6d:9c
+	Interface Speed  : 10 Mbps
+	IP Address       : 172.16.4.113
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan102
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.121
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 7482918 (7.2M)
+	Bytes Out        : 7997881 (7.7M)
+
+ Interface               : [ up ] Null0
+
+	Interface Speed  : 4294.967295 Mbps
+	IP Address       : 172.16.4.129
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan109
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.137
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 10920 (11K)
+	Bytes Out        : 2150 (2.1K)
+
+ Interface               : [ up ] Vlan11
+
+	Hardware Address : 00:26:98:6e:6d:ca
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.145
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan12
+
+	Hardware Address : 00:26:98:6e:6d:cb
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.153
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 60 (60)
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan13
+
+	Hardware Address : 00:26:98:6e:6d:cc
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.161
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan14
+
+	Hardware Address : 00:26:98:6e:6d:cd
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.169
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan15
+
+	Hardware Address : 00:26:98:6e:6d:ce
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.17
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan150
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.177
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan16
+
+	Hardware Address : 00:26:98:6e:6d:cf
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.185
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan17
+
+	Hardware Address : 00:26:98:6e:6d:d0
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.193
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan18
+
+	Hardware Address : 00:26:98:6e:6d:d1
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.201
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan19
+
+	Hardware Address : 00:26:98:6e:6d:d2
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.209
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan2
+
+	Hardware Address : 00:26:98:6e:6d:c1
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.217
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 253946491 (243M)
+	Bytes Out        : 174402150 (167M)
+
+ Interface               : [ up ] Vlan20
+
+	Hardware Address : 00:26:98:6e:6d:d3
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.225
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan200
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.233
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 11126078 (11M)
+	Bytes Out        : 149119 (146K)
+
+ Interface               : [ up ] Vlan21
+
+	Hardware Address : 00:26:98:6e:6d:d4
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.241
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 1314088 (1.3M)
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan22
+
+	Hardware Address : 00:26:98:6e:6d:d5
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.249
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan23
+
+	Hardware Address : 00:26:98:6e:6d:d6
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.25
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan24
+
+	Hardware Address : 00:26:98:6e:6d:d7
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.33
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan25
+
+	Hardware Address : 00:26:98:6e:6d:d8
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.41
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan254
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.49
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 228992 (224K)
+
+ Interface               : [ up ] Vlan26
+
+	Hardware Address : 00:26:98:6e:6d:d9
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.57
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan27
+
+	Hardware Address : 00:26:98:6e:6d:da
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.65
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan28
+
+	Hardware Address : 00:26:98:6e:6d:db
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.73
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan29
+
+	Hardware Address : 00:26:98:6e:6d:dc
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.81
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan3
+
+	Hardware Address : 00:26:98:6e:6d:c2
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.89
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes In         : 29739476 (29M)
+	Bytes Out        : 17617358 (17M)
+
+ Interface               : [ up ] Vlan30
+
+	Hardware Address : 00:26:98:6e:6d:dd
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.9
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan300
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.4.97
+	Netmask          : 255.255.255.248
+	MTU              : 1500
+	Bytes Out        : 145984 (143K)
+
+ Interface               : [ up ] Vlan301
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.7.1
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 92771216 (89M)
+	Bytes Out        : 17916179 (18M)
+
+ Interface               : [ up ] Vlan302
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.7.33
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes In         : 178876300 (171M)
+	Bytes Out        : 7158606 (6.9M)
+
+ Interface               : [ up ] Vlan303
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.7.65
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan304
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.9.129
+	Netmask          : 255.255.255.128
+	MTU              : 1500
+	Bytes Out        : 704 (704)
+
+ Interface               : [ up ] Vlan305
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.16.9.30
+	Netmask          : 255.255.255.224
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan31
+
+	Hardware Address : 00:26:98:6e:6d:de
+	Interface Speed  : 1000 Mbps
+	IP Address       : 172.31.254.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan310
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.0.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 896 (896)
+
+ Interface               : [ up ] Vlan32
+
+	Hardware Address : 00:26:98:6e:6d:df
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.1.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan33
+
+	Hardware Address : 00:26:98:6e:6d:e0
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.10.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan34
+
+	Hardware Address : 00:26:98:6e:6d:e1
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.2.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan35
+
+	Hardware Address : 00:26:98:6e:6d:e2
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.254.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan36
+
+	Hardware Address : 00:26:98:6e:6d:e3
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.3.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan37
+
+	Hardware Address : 00:26:98:6e:6d:e4
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.4.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan38
+
+	Hardware Address : 00:26:98:6e:6d:e5
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.5.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan39
+
+	Hardware Address : 00:26:98:6e:6d:e6
+	Interface Speed  : 1000 Mbps
+	IP Address       : 192.168.53.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan4
+
+	Hardware Address : 00:26:98:6e:6d:c3
+	Interface Speed  : 1000 Mbps
+	IP Address       : 30.0.1.1
+	Netmask          : 255.255.255.192
+	MTU              : 1500
+	Bytes In         : 21606122 (21M)
+	Bytes Out        : 8807048 (8.4M)
+
+ Interface               : [ up ] Vlan40
+
+	Hardware Address : 00:26:98:6e:6d:e7
+	Interface Speed  : 1000 Mbps
+	IP Address       : 40.0.1.1
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan400
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	IP Address       : 40.0.1.29
+	Netmask          : 255.255.255.240
+	MTU              : 1500
+	Bytes In         : 267091968 (255M)
+	Bytes Out        : 1077824 (1.1M)
+
+ Interface               : [ up ] Vlan41
+
+	Hardware Address : 00:26:98:6e:6d:e8
+	Interface Speed  : 1000 Mbps
+	IP Address       : 50.50.50.1
+	Netmask          : 255.255.255.0
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan42
+
+	Hardware Address : 00:26:98:6e:6d:e9
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan43
+
+	Hardware Address : 00:26:98:6e:6d:ea
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan44
+
+	Hardware Address : 00:26:98:6e:6d:eb
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan45
+
+	Hardware Address : 00:26:98:6e:6d:ec
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan46
+
+	Hardware Address : 00:26:98:6e:6d:ed
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan47
+
+	Hardware Address : 00:26:98:6e:6d:ee
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 1032312 (1009K)
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan5
+
+	Hardware Address : 00:26:98:6e:6d:c4
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 13832109 (14M)
+	Bytes Out        : 11554591 (12M)
+
+ Interface               : [ up ] Vlan500
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 422911386 (404M)
+	Bytes Out        : 330891746 (316M)
+
+ Interface               : [ up ] Port-channel1
+
+	Hardware Address : 00:26:98:6e:6d:98
+	Interface Speed  : 2000 Mbps
+	MTU              : 1500
+	Bytes In         : 61432674 (59M)
+	Bytes Out        : 881220159 (841M)
+
+ Interface               : [ up ] Port-channel2
+
+	Hardware Address :   :  
+	Interface Speed  : 10 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan501
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan504
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 778199516 (743M)
+
+ Interface               : [ up ] Vlan505
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan52
+
+	Hardware Address : 00:26:98:6e:6d:ef
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+
+ Interface               : [ up ] Vlan53
+
+	Hardware Address : 00:26:98:6e:6d:f0
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 7336662 (7.0M)
+	Bytes Out        : 61091621 (59M)
+
+ Interface               : [ up ] Vlan54
+
+	Hardware Address : 00:26:98:6e:6d:f1
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan55
+
+	Hardware Address : 00:26:98:6e:6d:f2
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan56
+
+	Hardware Address : 00:26:98:6e:6d:f3
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan6
+
+	Hardware Address : 00:26:98:6e:6d:c5
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 49080028 (47M)
+	Bytes Out        : 24030254 (23M)
+
+ Interface               : [ up ] Vlan60
+
+	Hardware Address : 00:26:98:6e:6d:f4
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan61
+
+	Hardware Address : 00:26:98:6e:6d:f5
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan62
+
+	Hardware Address : 00:26:98:6e:6d:f6
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan63
+
+	Hardware Address : 00:26:98:6e:6d:f7
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan64
+
+	Hardware Address : 00:26:98:6e:6d:f8
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan65
+
+	Hardware Address : 00:26:98:6e:6d:f9
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan66
+
+	Hardware Address : 00:26:98:6e:6d:fa
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan67
+
+	Hardware Address : 00:26:98:6e:6d:fb
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan68
+
+	Hardware Address : 00:26:98:6e:6d:fc
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan69
+
+	Hardware Address : 00:26:98:6e:6d:fd
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan7
+
+	Hardware Address : 00:26:98:6e:6d:c6
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 47491013 (46M)
+	Bytes Out        : 14177834 (14M)
+
+ Interface               : [ up ] Vlan70
+
+	Hardware Address : 00:26:98:6e:6d:fe
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 1152 (1.2K)
+
+ Interface               : [ up ] Vlan71
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan72
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan73
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan74
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan75
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes Out        : 512 (512)
+
+ Interface               : [ up ] Vlan8
+
+	Hardware Address : 00:26:98:6e:6d:c7
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 31899982 (31M)
+	Bytes Out        : 14928554 (15M)
+
+ Interface               : [ up ] Vlan9
+
+	Hardware Address : 00:26:98:6e:6d:c8
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 31417593 (30M)
+	Bytes Out        : 6400245 (6.2M)
+
+ Interface               : [ up ] Vlan90
+
+	Hardware Address : 00:26:98:6e:6d:ff
+	Interface Speed  : 1000 Mbps
+	MTU              : 1500
+	Bytes In         : 2160 (2.2K)
+	Bytes Out        : 2112 (2.1K)
+
+
+ [*] Listening UDP ports
+ -----------------------------------------------------------------------------------------------
+
+   Local Address   Port
+
+    172.16.4.185    123
+    172.16.4.185    162
+    172.16.4.185   1975
+    172.16.4.185   2228
+    172.16.4.185  64527
+    172.16.4.185     67
+
+ [*] Enumerated 40.0.1.1 in 6.59 seconds
