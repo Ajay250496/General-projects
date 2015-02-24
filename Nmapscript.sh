@@ -48,7 +48,9 @@ OptionScan()
 		if [ -a 192.168.1.0-Option.xml ]; then
 			mv 192.168.1.0-Option.xml 192.168.1.0-Option.xml.old
 			nmap $Option -iL 192.168.1.0-Hosts.txt -oX 192.168.1.0-Option.xml > /dev/null 2>&1
-			echo "Scan completed scan file created"			
+			echo "Scan completed scan file created"	
+			echo "Converting file to HTML"
+			xsltproc 30.0.1.0-Option.xml -O 30.0.1.0-Option.html		
 			echo "Difference in scan from last time: "
 			ndiff 192.168.1.0-Option.xml 192.168.1.0-Option.xml.old
 		else
@@ -62,6 +64,8 @@ OptionScan()
 			mv 192.168.2.0-Option.xml 192.168.2.0-Option.xml.old
 			nmap $Option -iL 192.168.2.0-Hosts.txt -oX 192.168.2.0-Option.xml > /dev/null 2>&1
 			echo "Scan completed scan file created"
+			echo "Converting file to HTML"
+			xsltproc 30.0.1.0-Option.xml -O 30.0.1.0-Option.html
 			echo "Difference in scan from last time: "
 			ndiff 192.168.2.0-Option.xml 192.168.2.0-Option.xml.old > ndiff-192.168.2.0.txt
 		else
@@ -75,6 +79,8 @@ OptionScan()
 			mv 30.0.1.0-Option.xml 30.0.1.0-Option.xml.old
 			nmap $Option -iL 30.0.1.0-Hosts.txt -oX 30.0.1.0-Option.xml > /dev/null 2>&1
 			echo "Scan completed scan file created"
+			echo "Converting file to HTML"
+			xsltproc 30.0.1.0-Option.xml -O 30.0.1.0-Option.html
 			echo "Difference in scan from last time: "
 			ndiff 30.0.1.0-Option.xml 30.0.1.0-Option.xml.old > ndiff-30.0.1.0.txt
 		else
