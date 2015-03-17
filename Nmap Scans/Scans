@@ -304,8 +304,6 @@ Nmap done: 64 IP addresses (4 hosts up) scanned in 11.09 seconds
  nmap -sV -iL Hostlist-192.168.1.0.txt 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting Nmap 6.46 ( http://nmap.org ) at 2015-01-27 05:56 EST
-Failed to resolve "192.168.1.1)".
-Failed to resolve "192.168.1.1)".
 Nmap scan report for 192.168.1.187
 Host is up (0.00030s latency).
 Not shown: 997 filtered ports
