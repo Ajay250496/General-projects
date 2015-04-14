@@ -1,0 +1,62 @@
+                 Autopsy string Sector Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Sector: 695
+Sector Size: 512
+
+Pointed to by Dir Entry: 2821
+Pointed to by files:
+  C:/Mia/My Documents/My Pictures/_.GIF (deleted)
+MD5 of raw Sector: ed0720343052e65a20e77ab666658c0a  -
+MD5 of string output: c1d38077459b1c4a9e5c138e7820f522  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: 63 to 1028159
+File System Type: fat16
+
+Date Generated: Fri Mar  6 10:23:08 2015
+Investigator: badamski
+----------------------------------------------------------------------
+                        CONTENT
+
+GIF87aF
+{c9)
+s1B=
+gcsg
+kBZZ{J1
+sZ)!
+RB5ccV99-Rkgs
+Z5ss^JB1
+ocZNZZN
+115VJJscNcRF
+w{cN
+o9JF
+=)!RZJ
+ccgJ9)
+))!ssk
+gssRJ1RskcJ1
+k{Z9
+sBB9
+{^ZZZ)
+R^gg{kB!
+sB99
+{{kV{
+{BRN91)R9-1)
+fJc^
+1! Zk^
+kNw{cJJA
+ckgRRB
+Z={{scB-9BAksb
+ZB1kcR
+Z1 199BJJ
+RcVg{wZJ=Z{soJ1!
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3
+
+

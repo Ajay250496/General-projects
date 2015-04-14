@@ -1,0 +1,62 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 11094
+Pointed to by file(s):
+  C:/-ORPHAN_FILE-/images[2].jpg (deleted)
+MD5 of istat output: 24efd1c6c16b5140f2ab832b8acb3cc9  -
+SHA-1 of istat output: b282cd72892fa052d1162e0ba6c490fe8ead3753  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Sat Apr 11 11:37:25 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 11094        Sequence: 2
+$LogFile Sequence Number: 25900993
+Not Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Sat Aug  1 22:34:25 2009
+File Modified:	Sat Aug  1 22:34:25 2009
+MFT Modified:	Sat Aug  1 22:34:25 2009
+Accessed:	Sat Aug  1 22:34:25 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: images[2].jpg
+Parent MFT Entry: 9432 	Sequence: 8880
+Allocated Size: 0   	Actual Size: 0
+Created:	Sat Aug  1 22:34:25 2009
+File Modified:	Sat Aug  1 22:34:25 2009
+MFT Modified:	Sat Aug  1 22:34:25 2009
+Accessed:	Sat Aug  1 22:34:25 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 90
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 92
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 1668  init_size: 1668
+572841 
+
+File Type: data
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

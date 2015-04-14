@@ -1,0 +1,38 @@
+             Autopsy string Sector Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Sector: 3442
+Sector Size: 512
+
+Pointed to by Dir Entry: 21264
+Pointed to by files:
+  C:/Mia/My Documents/mia/BBT No. 200.doc (deleted)
+MD5 of raw Sector: d0b1c29eefa96f5e14df91f7c6214816  -
+MD5 of string output: d41d8cd98f00b204e9800998ecf8427e  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: 63 to 1028159
+File System Type: fat16
+
+Date Generated: Thu Mar  5 12:43:47 2015
+Investigator: unknown
+----------------------------------------------------------------------
+                        CONTENT
+Hi Karen -
+
+I got your note. But I can't afford more than $500 for the lot.
+That's $100 a course. Remember, I set up that web page on Matrix 
+for you, and you've made a lot of money from that page. So let me
+know if just the $500 is okay.
+
+Mia
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3
+
+

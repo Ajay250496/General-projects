@@ -1,0 +1,85 @@
+        Autopsy string Sector Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Sector: 2007
+Sector Size: 512
+
+Pointed to by Dir Entry: 8
+Pointed to by files:
+  C:/q7 (deleted)
+MD5 of raw Sector: ae73d889fe1420d3cf46c34fd534d103  -
+MD5 of string output: 8b605d16a2815440a5aa4b7f47038c6d  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: 63 to 1028159
+File System Type: fat16
+
+Date Generated: Wed Mar  4 21:15:01 2015
+Investigator: badamski
+----------------------------------------------------------------------
+                        CONTENT
+
+Question 7: Quidditch, Three Man Snee, Fizbin, and Monopolypoly
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3
+
+
+
+
+     Autopsy string Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+File: C://q7
+MD5 of recovered file: d41d8cd98f00b204e9800998ecf8427e  -
+SHA-1 of recovered file: da39a3ee5e6b4b0d3255bfef95601890afd80709  -
+MD5 of ASCII strings: d41d8cd98f00b204e9800998ecf8427e  -
+SHA-1 of ASCII strings: da39a3ee5e6b4b0d3255bfef95601890afd80709  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: 63 to 1028159
+File System Type: fat16
+
+Date Generated: Wed Mar  4 21:32:19 2015
+Investigator: badamski
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+Directory Entry: 8
+Not Allocated
+File Attributes: File, Archive
+Size: 64
+Name: _7
+
+Directory Entry Times:
+Written:	2009-09-30 17:14:44 (EDT)
+Accessed:	2009-09-30 00:00:00 (EDT)
+Created:	2009-09-30 17:14:44 (EDT)
+
+Sectors:
+2007 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+
+File Type: read permission
+
+----------------------------------------------------------------------
+                        CONTENT
+
+Question 7: Quidditch, Three Man Snee, Fizbin, and Monopolypoly
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3
+
+
+

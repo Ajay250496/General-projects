@@ -1,0 +1,60 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 9619
+Pointed to by file(s):
+  C:/WINDOWS/system32/sp7.dll
+MD5 of istat output: c8b84c9d7a9ffb9440f7065cf71b59bb  -
+SHA-1 of istat output: c42ab558cefe57170faac077fe6bd172fefe5808  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Mon Apr 13 18:01:56 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 9619        Sequence: 2
+$LogFile Sequence Number: 23913880
+Allocated File
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 369  ()
+Created:	Sat Aug  1 22:19:10 2009
+File Modified:	Thu Sep  3 04:51:43 2009
+MFT Modified:	Thu Oct  1 18:15:21 2009
+Accessed:	Sat Aug  1 22:19:10 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: sp7.dll
+Parent MFT Entry: 29 	Sequence: 1
+Allocated Size: 0   	Actual Size: 0
+Created:	Sat Aug  1 22:19:10 2009
+File Modified:	Sat Aug  1 22:19:10 2009
+MFT Modified:	Sat Aug  1 22:19:10 2009
+Accessed:	Sat Aug  1 22:19:10 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 80
+Type: $DATA (128-1)   Name: N/A   Resident   size: 275
+
+File Type: ASCII text, with CRLF line terminators
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

@@ -1,0 +1,6 @@
+mkdosfs
+)[!B
+           FAT16   
+This is not a bootable disk.  Please insert a bootable floppy and
+press any key to try again ... 
+Q u e s t i o n  4 :  T h e  e v i l  o f  t w o  l e s s e r s

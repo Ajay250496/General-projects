@@ -1,0 +1,62 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 11312
+Pointed to by file(s):
+  C:/Documents and Settings/Mia Hacker/Local Settings/Temporary Internet Files/Content.IE5/GLIZOPER/c5[1].jpg (deleted)
+MD5 of istat output: 4724712273b6302967d33e57d3256fac  -
+SHA-1 of istat output: c3124f0656571c4b83bac5b84d94167c079f43ef  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Sat Apr 11 11:49:11 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 11312        Sequence: 58439
+$LogFile Sequence Number: 25866260
+Not Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Sun Oct  4 22:39:09 2009
+File Modified:	Sun Oct  4 22:39:09 2009
+MFT Modified:	Sun Oct  4 22:39:09 2009
+Accessed:	Sun Oct  4 22:39:09 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: c5[1].jpg
+Parent MFT Entry: 9435 	Sequence: 1
+Allocated Size: 0   	Actual Size: 0
+Created:	Sun Oct  4 22:39:09 2009
+File Modified:	Sun Oct  4 22:39:09 2009
+MFT Modified:	Sun Oct  4 22:39:09 2009
+Accessed:	Sun Oct  4 22:39:09 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 84
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 88
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 2879  init_size: 2879
+567827 
+
+File Type: JPEG image data, JFIF standard 1.01
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

@@ -1,0 +1,66 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 10959
+Pointed to by file(s):
+  C:/Documents and Settings/Mia Hacker/Local Settings/Application Data/Identities/{E824812D-E339-4812-95AA-561306EF6356}/Microsoft/Outlook Express/Sent Items.dbx
+MD5 of istat output: 0b3900207c68ffac3ff41b67a68eefb3  -
+SHA-1 of istat output: a5ebcbe1269f39dcb19d21e1335ee709247a69e7  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Mon Apr 13 18:00:35 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 10959        Sequence: 1
+$LogFile Sequence Number: 25935368
+Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Sat Aug  1 22:26:51 2009
+File Modified:	Wed Oct  7 22:41:12 2009
+MFT Modified:	Wed Oct  7 22:41:12 2009
+Accessed:	Wed Oct  7 22:41:12 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: Sent Items.dbx
+Parent MFT Entry: 10935 	Sequence: 1
+Allocated Size: 0   	Actual Size: 0
+Created:	Sat Aug  1 22:26:51 2009
+File Modified:	Sat Aug  1 22:26:51 2009
+MFT Modified:	Sat Aug  1 22:26:51 2009
+Accessed:	Sat Aug  1 22:26:51 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 90
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 94
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 142036  init_size: 126976
+85022 85023 85024 99192 99193 99194 99195 99196 
+99197 99198 99199 99200 99201 99202 99203 99204 
+99205 99206 99207 99208 99209 99210 99211 99212 
+99213 99214 99810 99811 99812 99813 99814 99815 
+0 0 0 
+
+File Type: MS Outlook Express DBX file, message database
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

@@ -1,0 +1,62 @@
+Question 7: Quidditch, Three Man Snee, Fizbin, and Monopolypoly
+himenaeos. Morbi venenatis neque et nibh dictum et condimentum velit tincidunt. Vestibulum a nisi lorem. Vivamus mauris nunc, gravida quis auctor vel, placerat convallis massa. Aliquam sem ligula, fermentum ut iaculis vel, dictum a erat. Cras in mauris adipiscing eros cursus scelerisque. Sed metus enim, facilisis sit amet sollicitudin dapibus, ullamcorper eget lectus. Mauris ultricies erat non urna egestas euismod vel ut dui. Vivamus suscipit lacus eget nulla tempus id mollis augue vulputate. Phasellus a justo massa. Integer fringilla bibendum tellus, a scelerisque magna scelerisque in. Phasellus aliquam pretium libero, a hendrerit urna luctus vel. Vestibulum eget urna arcu, vestibulum euismod urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Donec euismod enim id nulla facilisis condimentum. Cras rhoncus aliquet molestie. In venenatis vestibulum ipsum ullamcorper feugiat. Vivamus molestie, mauris eu auctor feugiat, nulla ante feugiat dolor, eu pretium arcu nisi id enim. Donec id egestas eros. Integer velit ante, viverra in feugiat nec, gravida egestas odio. Cras auctor scelerisque libero, id placerat nulla tristique ut. Praesent eu volutpat tortor. Suspendisse potenti. Quisque lorem magna, lacinia id vestibulum id, sagittis sit amet lacus. Sed pellentesque eleifend eros sit amet aliquam. Praesent venenatis dictum mi, eget auctor lacus viverra ac. Vivamus nec aliquam ipsum. Curabitur sed lorem dui, a hendrerit nulla. Nam in augue ligula. Donec aliquam lacinia urna, lobortis porttitor lorem imperdiet ut. Mauris eget dui ac justo semper placerat. Nulla placerat eros a orci vulputate sit amet consectetur dolor semper. Phasellus magna urna, congue vitae fermentum et, viverra eget neque. Aenean eget lectus nisl. 
+Nunc pulvinar fringilla dui, et facilisis purus suscipit sed. Aliquam erat volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vitae tortor sit amet quam vehicula elementum. Suspendisse auctor consequat quam nec tincidunt. Vestibulum pretium libero sed arcu aliquet eleifend. Integer sit amet odio nibh, eget scelerisque quam. Vestibulum id ante justo. Maecenas mattis vehicula leo. Sed vitae velit quis purus placerat porta. Vestibulum nec elit velit, at consectetur turpis. Vivamus mollis urna dictum nulla gravida vel fringilla arcu laoreet. 
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam odio augue, tristique non dictum ut, viverra vitae elit. Cras metus lacus, ullamcorper sit amet pellentesque vel, elementum ullamcorper lectus. Donec fermentum mauris eu odio tempor facilisis. Cras laoreet posuere dui eget dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus laoreet gravida dui at viverra. Curabitur egestas mauris metus. Aenean sodales risus sit amet elit vulputate at suscipit felis aliquet. Donec ullamcorper odio sed enim tincidunt tincidunt. Aliquam urna sem, euismod sed condimentum id, lacinia hendrerit nulla. Phasellus sed purus turpis, nec auctor mauris. Aenean pellentesque bibendum lorem vitae semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ut nisl eros. 
+	>*5
+[Trash Info]
+Path=q7
+DeletionDate=2009-09-30T17:14:57
+(2(2	03
+Root Entry
+CompObj
+1Table
+SummaryInformation
+WordDocument
+DocumentSummaryInformation
+,bob,bob-desktop,30.09.2009 15:37,file:///home/bob/.openoffice.org/3;
+,bob,bob-desktop,30.09.2009 15:39,file:///home/bob/.openoffice.org/3;
+Root Entry
+Microsoft Word-Dokument
+MSWordDoc
+Word.Document.8
+Default
+$a$1$*$
+3B*OJ
+Absatz-Standardschriftart
+Absatz-Standardschriftart
+	WW8Num1z0
+WW-Absatz-Standardschriftart
+Bullets
+Heading
+	Text body
+List
+Caption
+Index
+Times New Roman
+Symbol
+Arial
+Lucida Sans Unicode
+Tahoma
+Symbol
+StarSymbol
+Arial Unicode MS
+Tahoma
+Bob Boyczuk
+Caolan80
+Hi Karen -
+I got your note. But I can't afford more than $500 for the lot. That's $100 a course. Let me know if that okay.
+	>*5
+Root Entry
+CompObj
+1Table
+SummaryInformation
+WordDocument
+DocumentSummaryInformation
+[Trash Info]
+Path=Mia/My Documents/mia/BBT No. 200.doc
+DeletionDate=2009-09-30T15:39:53
+,bob,bob-desktop,30.09.2009 15:41,file:///home/bob/.openoffice.org/3;
+,bob,bob-desktop,30.09.2009 15:43,file:///home/bob/.openoffice.org/3;
+Q;;=;
+

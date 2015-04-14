@@ -1,0 +1,43 @@
+SPR ASSIGNMENT 2
+
+Files found
+3[1].jpg - /img_a2.dd/$OrphanFiles ## contains hidden strings within the picture
+
+
+/img_a2.dd/$OrphanFiles/AC391B80BB828EF97D96A43D34B2A4[1].jpg - evidence suggesting mia violated school policies---------
+
+/img_a2.dd/$OrphanFiles/c1[1].jpg - child pornography found --------
+--
+/img_a2.dd/$OrphanFiles/c2[1].jpg - child pornography----------
+
+/img_a2.dd/$OrphanFiles/c3[1].jpg - carving of cat? also child porn? ------
+
+/img_a2.dd/$OrphanFiles/c4[1].jpg - cp --------
+
+/img_a2.dd/$OrphanFiles/c6[1].jpg - string says "account number", suspicious --------
+
+/img_a2.dd/$OrphanFiles/images2[1].jpg - ap ------
+
+/img_a2.dd/$OrphanFiles/images[2].jpg - strings regarding accounts -------
+
+/img_a2.dd/$OrphanFiles/images[3].jpg - book cover, ap--------
+
+/img_a2.dd/$OrphanFiles/images[9].jpg --------
+
+/img_a2.dd/$OrphanFiles/wbkD6.tmp - list of file locations *******
+/img_a2.dd/Documents and Settings/Mia Hacker/Local Settings/Application Data/Identities/{E824812D-E339-4812-95AA-561306EF6356}/Microsoft/Outlook Express/Deleted Items.dbx---
+
+===========================================
+                  NEW
+==========================================
+
+/img_a2.dd/Documents and Settings/Mia Hacker/Local Settings/Application Data/Identities/{E824812D-E339-4812-95AA-561306EF6356}/Microsoft/Outlook Express/Sent Items.dbx == MFT: 10959
+
+/img_a2.dd/Documents and Settings/Mia Hacker/Local Settings/Application Data/Identities/{E824812D-E339-4812-95AA-561306EF6356}/Microsoft/Outlook Express/Deleted Items.dbx == MFT 10962
+
+/img_a2.dd/WINDOWS/system32/sp7.dll == MFT 9619
+
+/img_a2.dd/Documents and Settings/All Users/Documents/My Music/Mia Hacker-old.wa~ == MFT 11076
+
+
+/img_a2.dd/Documents and Settings/Mia Hacker/Application Data/Microsoft/Address Book/Mia Hacker.wab == MFT 10939

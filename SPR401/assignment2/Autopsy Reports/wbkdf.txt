@@ -1,0 +1,61 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 10945
+Pointed to by file(s):
+  C:/Documents and Settings/Mia Hacker/Local Settings/Temporary Internet Files/Content.IE5/OPANOD6V/wbkDF.tmp
+MD5 of istat output: 809a81adfc13e760a6d080e095c8ddf8  -
+SHA-1 of istat output: 9f234ec12f687060263d399007c48a6af984711d  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Sat Apr 11 11:44:55 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 10945        Sequence: 3
+$LogFile Sequence Number: 25936929
+Allocated File
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Wed Oct  7 22:41:14 2009
+File Modified:	Wed Oct  7 22:41:14 2009
+MFT Modified:	Wed Oct  7 22:41:14 2009
+Accessed:	Wed Oct  7 22:41:14 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: wbkDF.tmp
+Parent MFT Entry: 9490 	Sequence: 2
+Allocated Size: 0   	Actual Size: 0
+Created:	Wed Oct  7 22:41:14 2009
+File Modified:	Wed Oct  7 22:41:14 2009
+MFT Modified:	Wed Oct  7 22:41:14 2009
+Accessed:	Wed Oct  7 22:41:14 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 84
+Type: $DATA (128-3)   Name: N/A   Non-Resident   size: 1990  init_size: 1990
+34493 
+
+File Type: Sendmail frozen configuration  - version ORDABLE ONLINE BACHEL0R'S, MASTER'S &amp; DOCT0RATE DEGREES&nbs
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

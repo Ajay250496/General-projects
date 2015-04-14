@@ -1,0 +1,62 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 11308
+Pointed to by file(s):
+  C:/-ORPHAN_FILE-/c1[1].jpg (deleted)
+MD5 of istat output: 0a59fc27b154a14a5999afe1bab0ccc1  -
+SHA-1 of istat output: afbdaeeb58d48aa83c090d848e0ad2857a2e2122  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Sat Apr 11 11:33:06 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 11308        Sequence: 35082
+$LogFile Sequence Number: 25897504
+Not Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Sun Oct  4 22:39:09 2009
+File Modified:	Sun Oct  4 22:39:09 2009
+MFT Modified:	Sun Oct  4 22:39:09 2009
+Accessed:	Sun Oct  4 22:39:09 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: c1[1].jpg
+Parent MFT Entry: 9432 	Sequence: 8880
+Allocated Size: 0   	Actual Size: 0
+Created:	Sun Oct  4 22:39:09 2009
+File Modified:	Sun Oct  4 22:39:09 2009
+MFT Modified:	Sun Oct  4 22:39:09 2009
+Accessed:	Sun Oct  4 22:39:09 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 84
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 88
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 4525  init_size: 4525
+567822 567823 
+
+File Type: JPEG image data, JFIF standard 1.01
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

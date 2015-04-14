@@ -1,0 +1,37 @@
+             Autopsy string Sector Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Sector: 585
+Sector Size: 512
+
+Pointed to by Dir Entry: 7
+Pointed to by files:
+  D:/Hacker-answers
+MD5 of raw Sector: 4f6ce1f18131164e656b7ee299c415fe  -
+MD5 of string output: 8ffc297c3de1a39376b5737b837a7def  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: 1092420 to 3084479
+File System Type: fat16
+
+Date Generated: Thu Mar  5 11:57:11 2015
+Investigator: badamski
+----------------------------------------------------------------------
+                        CONTENT
+
+Here are the answers to my exam questions:
+Question 1: A lad from Kent
+Question 2: The best novel ever wrote is Nexus
+Question 3: It's the mans' behind me, sir!
+Question 4: The evil of two lessers
+Question 5: 6
+Question 6: Soylent green is peoples!
+Question 7: Quidditch, Three Man Snee, Fizbin, and Monopolypoly
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3

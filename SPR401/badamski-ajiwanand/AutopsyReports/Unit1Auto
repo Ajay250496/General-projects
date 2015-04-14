@@ -1,0 +1,26 @@
+    Autopsy string Unit Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Unit: 1
+Unit Size: 512
+MD5 of raw Unit: 2a2dd503e6ffb89908b3ac171a7ea4ac  -
+MD5 of string output: 9326533356ed9af5f3f54666481c7272  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: Full image
+File System Type: raw
+
+Date Generated: Wed Mar  4 22:18:51 2015
+Investigator: badamski
+----------------------------------------------------------------------
+                        CONTENT
+
+Question 1: A lad from Kent
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3

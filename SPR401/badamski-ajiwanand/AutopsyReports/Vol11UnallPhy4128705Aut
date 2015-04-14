@@ -1,0 +1,27 @@
+      Autopsy string Unit Report
+
+----------------------------------------------------------------------
+                   GENERAL INFORMATION
+
+Unit: 4128705
+Unit Size: 512
+MD5 of raw Unit: 574034907b9f9bdb7210f9efb6356d3e  -
+MD5 of string output: 9d2e5b6168ee90162c3630b6bdbc8879  -
+
+Image: '/var/lib/autopsy/assign1/host1/images/assign1.dd'
+Offset: Full image
+File System Type: raw
+
+Date Generated: Thu Mar  5 12:29:28 2015
+Investigator: badamski
+----------------------------------------------------------------------
+                        CONTENT
+
+Question 2: The best novel ever wrote is Nexus
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 4.1.3
+

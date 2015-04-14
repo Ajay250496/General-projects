@@ -1,0 +1,67 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 11076
+Pointed to by file(s):
+  C:/Documents and Settings/All Users/Documents/My Music/Mia Hacker-old.wa~
+MD5 of istat output: 5d726e3512c48488875eca65a4a73742  -
+SHA-1 of istat output: 9db46369bcab0b6b4e04b3dc07b5c0226b887d68  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Mon Apr 13 17:51:20 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 11076        Sequence: 60368
+$LogFile Sequence Number: 25500050
+Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 390  ()
+Created:	Sat Aug  1 22:32:50 2009
+File Modified:	Sat Aug  1 22:32:50 2009
+MFT Modified:	Sat Aug  1 22:32:50 2009
+Accessed:	Sat Aug  1 22:32:50 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: Mia Hacker-old.wa~
+Parent MFT Entry: 5083 	Sequence: 1
+Allocated Size: 0   	Actual Size: 0
+Created:	Sat Aug  1 22:32:50 2009
+File Modified:	Sat Aug  1 22:32:50 2009
+MFT Modified:	Sat Aug  1 22:32:50 2009
+Accessed:	Sat Aug  1 22:32:50 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 90
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 102
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 177109  init_size: 177109
+28863 28864 28865 28866 28867 28868 28869 28870 
+28871 28872 28873 28874 28875 28876 28877 28878 
+28879 28880 28881 28882 28883 28884 28885 28886 
+28887 28888 28889 28890 28891 28892 28893 28894 
+28895 28896 28897 28898 28899 28900 28901 28902 
+28903 28904 28905 28906 
+
+File Type: data
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+

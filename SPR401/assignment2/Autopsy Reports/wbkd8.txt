@@ -1,0 +1,60 @@
+                 Autopsy MFT Entry Report
+
+----------------------------------------------------------------------
+                    GENERAL INFORMATION
+
+MFT Entry: 9488
+Pointed to by file(s):
+  C:/Documents and Settings/Mia Hacker/Local Settings/Temporary Internet Files/Content.IE5/OPANOD6V/wbkDB.tmp
+MD5 of istat output: 953201c3a9bb92f85b2a569eb260e06b  -
+SHA-1 of istat output: da7ddad8c29f54d2fc81d5ea97860420720677a5  -
+
+Image: '/var/lib/autopsy/A2/host1/images/a2.dd'
+Offset: Full image
+File System Type: ntfs
+
+Date Generated: Sat Apr 11 11:47:25 2015
+Investigator: miguel
+
+----------------------------------------------------------------------
+                   META DATA INFORMATION
+
+MFT Entry Header Values:
+Entry: 9488        Sequence: 3763
+$LogFile Sequence Number: 25933770
+Allocated File
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Security ID: 360  ()
+Created:	Wed Oct  7 22:41:06 2009
+File Modified:	Wed Oct  7 22:41:06 2009
+MFT Modified:	Wed Oct  7 22:41:06 2009
+Accessed:	Wed Oct  7 22:41:06 2009
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: wbkDB.tmp
+Parent MFT Entry: 9490 	Sequence: 2
+Allocated Size: 0   	Actual Size: 0
+Created:	Wed Oct  7 22:41:06 2009
+File Modified:	Wed Oct  7 22:41:06 2009
+MFT Modified:	Wed Oct  7 22:41:06 2009
+Accessed:	Wed Oct  7 22:41:06 2009
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-2)   Name: N/A   Resident   size: 84
+Type: $DATA (128-1)   Name: N/A   Resident   size: 147
+
+File Type: ASCII text, with CRLF line terminators
+
+----------------------------------------------------------------------
+                   VERSION INFORMATION
+
+Autopsy Version: 2.24
+The Sleuth Kit Version: 3.2.3
+
+
